@@ -16,9 +16,6 @@ import netflix from "../assets/netflix.png";
 import jobPortal from "../assets/job-portal.png";
 import portfolio from "../assets/portfolio.png";
 
-
-
-
 export const HOME_SUMMARY = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications . With a solid foundation in front - end technologies like React and  experience in back - end technologies like Node . js , PostgreSQL , and MongoDB , I have honed my skills to deliver exceptional user experiences . My goal is to leverage my expertise to create innovative solutions that provide seamless , dynamic interactions .`;
 
 export const ABOUT_TEXT = `I am a dedicated full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React,  Node.js,  PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
@@ -45,10 +42,6 @@ Collaborated with the frontend team to ensure seamless integration.`,
 ];
 
 export const education = [
-  // {
-  //   title: "ME(A)RN Stack",
-  //   description: "Completed from Luminar Technolab in January 2024"
-  // },
   {
     title: "BCA",
     description:

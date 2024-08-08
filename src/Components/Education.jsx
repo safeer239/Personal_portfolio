@@ -21,8 +21,6 @@ const Education = ({lightmode}) => {
 
 
 const TimelineItem = ({ order, number, title, description,lightmode }) => {
-
-    // const flexDirection = (order === "left") ? (isMobile ? "flex-row" : "flex-row-reverse") : "flex-row";
     const ref = useRef()
     const variants = {
         hidden: { opacity: 0, y: -100 },
