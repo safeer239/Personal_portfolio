@@ -92,7 +92,7 @@ const Contact = ({lightmode}) => {
         </motion.p>
         <form
           onSubmit={handleSubmit}
-          className="w-full lg:px-[510px] flex flex-col  space-y-5 md:px-16"
+          className="w-full xl:px-[200px] flex flex-col  space-y-5 md:px-16"
         >
           <motion.input
             whileInView={{ opacity: 1, y: 0 }}

@@ -66,6 +66,8 @@ export const PROJECTS = [
     description:
       "A Netflix clone project that allows users to watch trailers of movies and TV shows. The application features a search functionality for finding movies and TV shows. It provides an intuitive and engaging user experience similar to the original Netflix platform.",
     technologies: ["React", "Node.js", "Express.js", "Tailwind CSS", "MongoDB"],
+     live:"https://netflix-clone-p1vf.onrender.com",
+    code:"https://github.com/safeer239/netflix-clone"
   },
   {
     title: "Job Portal Website",
@@ -80,6 +82,8 @@ export const PROJECTS = [
       "MongoDB",
       "Firebase",
     ],
+    live:"",
+    code:"https://github.com/safeer239/job-portal-full"
   },
   {
     title: "Portfolio Website",
@@ -87,6 +91,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "React", "Tailwind CSS"],
+     live:"https://personal-portfolio-k7h2.onrender.com",
+    code:"https://github.com/safeer239/Personal_portfolio"
   },
 ];
 

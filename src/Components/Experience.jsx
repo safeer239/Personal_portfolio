@@ -21,7 +21,7 @@ const Experience = ({lightmode}) => {
                         <motion.p whileInView={{opacity:1,y:0}} initial={{opacity:1,y:100}} transition={{duration:1.2}} className={lightmode?'mb-4 text-neutral-400':'mb-4 text-neutral-900'}>{item.description}</motion.p>
                     
                         {item.technologies.map((item, i) =>(
-                                <motion.span  initial={{y:100,opacity:-1}} animate={{y:0,opacity:1}} transition={{duration:0.8, delay:0.8}} key={i} className='mr-2 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-500'>
+                                <motion.span  initial={{y:100,opacity:-1}} animate={{y:0,opacity:1}} transition={{duration:0.8, delay:0.8}} key={i} className={lightmode?'mr-2 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-500':'mr-2 rounded bg-neutral-200 px-2 py-1 font-medium text-purple-900'}>
                             {item}
                                 </motion.span>
                             ))}
