@@ -23,16 +23,16 @@ export const ABOUT_TEXT = `I am a dedicated full stack developer with a passion 
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
-    role: "Backend Developer",
+    role: "Backend Developer Intern",
     type: "Internship",
-    company: "Digi Store Pay",
+    company: "Digistore Pay",
     description: `During the time of internship I acquired skills in PostgreSQL for efficient database management. Managed database interactions using PostgreSQL, ensuring data consistency and reliability.
 Collaborated with the frontend team to ensure seamless integration.`,
     technologies: ["Node.Js", "PostgreSQL"],
   },
   {
     year: "2023 - 2024",
-    role: "MERN Full Stack Developer Intern",
+    role: "MERN Full Stack Developer ",
     type: "Course",
     company: "Luminar Technolab",
     description: `I have completed a comprehensive 7-month MERN stack course, which covered MongoDB, Express.js, React, and Node.js. This program equipped me with full-stack web development skills and in-depth knowledge of JavaScript and modern web technologies for building dynamic and responsive applications.
