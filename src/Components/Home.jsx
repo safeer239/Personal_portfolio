@@ -1,6 +1,6 @@
 import React from 'react'
 import {HOME_SUMMARY} from "../Constants/datas"
-import me from "../assets/me.jpg"
+import me from "../assets/me.png"
 import Typewriter from "typewriter-effect";
 import resume from "../assets/Mohammed safeer resume.pdf"
 import {motion} from "framer-motion"
