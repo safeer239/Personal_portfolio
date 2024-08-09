@@ -1,6 +1,6 @@
 import React from 'react'
 import {HOME_SUMMARY} from "../Constants/datas"
-import me from "../assets/me.png"
+import me from "../assets/me1.png"
 import Typewriter from "typewriter-effect";
 import resume from "../assets/Mohammed safeer resume.pdf"
 import {motion} from "framer-motion"
@@ -45,7 +45,7 @@ const Home = ({lightmode}) => {
             </div>
             <div className='w-full lg:w-1/2 lg:p-8'>
               <div className='flex justify-center'>
-              <motion.img initial={{x:100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.8, delay:0.8}} className='rounded-tl-[40%] rounded-tr-[40%] rounded-bl-[80%] rounded-br-[30%]' src={me} alt="" />
+              <motion.img initial={{x:100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.8, delay:0.8}} className='mt-9 rounded-tl-[40%] rounded-tr-[40%] rounded-bl-[80%] rounded-br-[30%]' src={me} alt="" />
               </div>
             </div>
         </div>
