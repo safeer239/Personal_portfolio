@@ -3,6 +3,8 @@ import { CONTACT } from "../Constants/datas";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
+import { IoMdHome } from "react-icons/io";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Contact = ({lightmode}) => {
   const [formData, setFormData] = useState({
@@ -80,15 +82,20 @@ const Contact = ({lightmode}) => {
           transition={{ duration: 1.3 }}
           className="my-4"
         >
-          {CONTACT.address}
+          <div className="flex justify-center text-center gap-5 ">
+         <IoMdHome className="text-3xl " /> {CONTACT.address}
+          </div>
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 1, y: 100 }}
           transition={{ duration: 1.4 }}
-          className="my-4 mb-4 "
+          className="my-4"
         >
+          <div className="flex justify-center text-center gap-5">
+          <FaPhoneAlt className="text-2xl"/>
           {CONTACT.phoneNo}
+          </div>
         </motion.p>
         <form
           onSubmit={handleSubmit}
@@ -136,9 +143,9 @@ const Contact = ({lightmode}) => {
           <motion.button
             whileInView={{opacity:1,y:0}} initial={{opacity:1,y:100}} transition={{duration:1.2}}
             disabled={isSending}
-            className={lightmode?`mb-8 w-full rounded border border-stone-50/30 px-4 py-2 text-sm fornt-semibold text-white hover:bg-purple-800 ${
+            className={lightmode?`mb-5 w-full rounded border border-stone-50/30 px-4 py-2 text-sm fornt-semibold text-white hover:bg-purple-800 ${
               isSending ? "cursor-not-allowed opacity-50" : ""
-            }`:`mb-8 w-full rounded border border-stone-900 px-4 py-2 text-sm font-semibold text-black hover:bg-purple-800 ${
+            }`:`mb-5 w-full rounded border border-stone-900 px-4 py-2 text-sm font-semibold text-black hover:bg-purple-400 ${
               isSending ? "cursor-not-allowed opacity-50" : ""
             }`}
           >
