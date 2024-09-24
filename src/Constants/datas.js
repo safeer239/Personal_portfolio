@@ -7,6 +7,7 @@ import Express from "../assets/express.svg";
 import Git from "../assets/git-icon.svg";
 import Github from "../assets/github-icon.svg";
 import HTML from "../assets/html.svg";
+import chakra_ui from "../assets/chakra-ui.svg";
 import Js from "../assets/js.svg";
 import Node from "../assets/node.svg";
 import Postman from "../assets/postman.svg";
@@ -15,6 +16,8 @@ import Postgresql from "../assets/postgresql.svg";
 import netflix from "../assets/netflix.png";
 import jobPortal from "../assets/job-portal.png";
 import portfolio from "../assets/portfolio.png";
+import chatterBox from "../assets/chat.png";
+import weather from "../assets/weather.png";
 
 export const HOME_SUMMARY = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications . With a solid foundation in front - end technologies like React and  experience in back - end technologies like Node . js , PostgreSQL , and MongoDB , I have honed my skills to deliver exceptional user experiences . My goal is to leverage my expertise to create innovative solutions that provide seamless , dynamic interactions .`;
 
@@ -61,6 +64,15 @@ export const education = [
 
 export const PROJECTS = [
   {
+    title: "ChatterBox",
+    image: chatterBox,
+    description:
+      "Real-time chat application is a dynamic platform built using the MERN stack, featuring real-time messaging, MongoDB for data storage, and WebSocket integration to facilitate seamless communication between users.",
+    technologies: ["React", "Node.js", "Express.js", "Chakra Ui", "MongoDB","Socket.io"],
+     live:"https://chatterbox-c0j8.onrender.com",
+    code:"https://github.com/safeer239/chatterBox"
+  },
+  {
     title: "Netflix-Clone",
     image: netflix,
     description:
@@ -82,7 +94,7 @@ export const PROJECTS = [
       "MongoDB",
       "Firebase",
     ],
-    live:"",
+    live:"https://github.com/safeer239",
     code:"https://github.com/safeer239/job-portal-full"
   },
   {
@@ -90,9 +102,18 @@ export const PROJECTS = [
     image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "React", "Tailwind CSS"],
+    technologies: [ "React", "Tailwind CSS"],
      live:"https://personal-portfolio-k7h2.onrender.com",
     code:"https://github.com/safeer239/Personal_portfolio"
+  },
+  {
+    title: "Weather App",
+    image: weather,
+    description:
+      "A simple weather application that provides real time information about weather",
+    technologies: ["HTML", "React", "Bootstrap"],
+     live:"https://open-weather2.netlify.app/",
+    code:"https://github.com/safeer239"
   },
 ];
 
@@ -107,6 +128,7 @@ export const skill=[
   Js,
   Redux,
   Bootstrap,
+  chakra_ui,
   Git,
   Github,
   Postman,

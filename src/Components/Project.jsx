@@ -16,8 +16,8 @@ const Project = ({lightmode}) => {
             {
                 PROJECTS.map((item,i)=>(
                     <div key={i} className='mb-8 flex flex-wrap lg:justify-center'>
-                        <div className='w-full  lg:w-1/4'>
-                        <motion.img whileInView={{opacity:1,y:0}} initial={{opacity:1,y:70}} transition={{duration:1.2}} className='md:mx-1 rounded' width={330} height={300} src={item.image} alt="" />
+                        <div className='w-full  lg:w-2/5 duration-500 ease-in-out hover:scale-125'>
+                        <motion.img whileInView={{opacity:1,y:0}} initial={{opacity:1,y:70}} transition={{duration:1.2}} className='md:mx-1 rounded' width={530} height={300} src={item.image} alt="" />
                         </div>
                         <div className='w-full max-w-xl lg:pl-5 lg:w-3/4'>
                             <motion.h5 whileInView={{opacity:1,y:0}} initial={{opacity:1,y:100}} transition={{duration:1.2}} className={lightmode?'mb-2 text-white font-semibold':'mb-2 text-black font-semibold'}>{item.title}</motion.h5>

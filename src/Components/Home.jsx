@@ -22,7 +22,8 @@ const Home = ({lightmode}) => {
             <div className='w-full lg:w-1/2 mb-4'>
       <section id='home'>
             <div className='flex flex-col  items-center lg:items-start'>
-                <motion.h1  variants={container(0)} initial="hidden" animate="visible"  className={lightmode?'pb-16 text-white text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl':'pb-16 text-black text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'}>Mohammed Safeer</motion.h1>
+              <motion.h5 variants={container(0)} initial="hidden" animate="visible" className={lightmode?"text-white text-3xl":"text-black text-3xl"}>Hello I'm</motion.h5>
+                <motion.h1  variants={container(0)} initial="hidden" animate="visible"  className={lightmode?'pb-16 text-white text-6xl font-thin tracking-tight lg:mt-5  lg:text-8xl':'pb-16 text-black text-6xl font-thin tracking-tight lg:mt-5 lg:text-8xl'}>Mohammed Safeer</motion.h1>
                 <motion.span variants={container(0.2)} initial="hidden" animate="visible" className='bg-gradient-to-r from-pink-400 via-slate-300 to-purple-900 bg-clip-text tracking-tight text-4xl text-transparent'><Typewriter
                   options={{
                     strings: [
