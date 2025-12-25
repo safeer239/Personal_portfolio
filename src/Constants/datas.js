@@ -19,28 +19,42 @@ import portfolio from "../assets/portfolio.png";
 import chatterBox from "../assets/chat.png";
 import weather from "../assets/weather.png";
 
-export const HOME_SUMMARY = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications . With a solid foundation in front - end technologies like React and  experience in back - end technologies like Node . js , PostgreSQL , and MongoDB , I have honed my skills to deliver exceptional user experiences . My goal is to leverage my expertise to create innovative solutions that provide seamless , dynamic interactions .`;
+export const HOME_SUMMARY = `MERN Stack Developer with 1+ year of professional experience in building scalable web applications using MongoDB, Express.js, React.js, and Node.js. Strong expertise in backend development, RESTful and GraphQL APIs, JWT-based authentication, and database-driven systems. Experienced in developing enterprise tools, employee management systems, and AI-powered applications including Retrieval-Augmented Generation (RAG). Proficient in Docker-based deployments, Nginx configuration, and modern development workflows.`;
 
-export const ABOUT_TEXT = `I am a dedicated full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React,  Node.js,  PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
+export const ABOUT_TEXT = `I am a dedicated full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Node.js, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I have strong expertise in backend development, RESTful and GraphQL APIs, and AI-powered applications including Retrieval-Augmented Generation (RAG). I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.`;
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
-    role: "Backend Developer Intern",
-    type: "Internship",
-    company: "Digistore Pay",
-    description: `During the time of internship I acquired skills in PostgreSQL for efficient database management. Managed database interactions using PostgreSQL, ensuring data consistency and reliability.
-Collaborated with the frontend team to ensure seamless integration.`,
-    technologies: ["Node.Js", "PostgreSQL"],
+    year: "April 2025 - Present",
+    role: "MERN Stack Developer",
+    type: "Full Time",
+    company: "RIOD LOGIC Pvt. Ltd",
+    description: `Developing and maintaining full-stack applications using the MERN stack for internal and client-based projects.
+Built employee management and time tracking software with role-based access, project-wise work logging, and reporting features.
+Designed and implemented RESTful and GraphQL APIs using Node.js and Express.js.
+Worked on AI-driven applications including Retrieval-Augmented Generation (RAG), integrating LLMs with vector databases.
+Assisted in deployment and environment setup using Docker and Nginx.`,
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "GraphQL", "Docker", "Nginx"],
   },
   {
-    year: "2023 - 2024",
-    role: "MERN Full Stack Developer ",
-    type: "Course",
+    year: "July 2024 - Jan 2025",
+    role: "Backend Developer Intern",
+    type: "Internship",
+    company: "DiGi Suvidha Pvt. Ltd",
+    description: `Developed and maintained server-side logic, ensuring high performance and reliability.
+Integrated RESTful APIs to manage and retrieve application data efficiently.
+Utilized PostgreSQL for database management, optimizing queries and ensuring data integrity.`,
+    technologies: ["Node.js", "PostgreSQL", "RESTful APIs"],
+  },
+  {
+    year: "June 2023 - Jan 2024",
+    role: "MERN Full Stack Developer Intern",
+    type: "Internship",
     company: "Luminar Technolab",
-    description: `I have completed a comprehensive 7-month MERN stack course, which covered MongoDB, Express.js, React, and Node.js. This program equipped me with full-stack web development skills and in-depth knowledge of JavaScript and modern web technologies for building dynamic and responsive applications.
-`,
-    technologies: ["React.Js", "Node.Js", "Express.Js", "MongoDB", "Redux"],
+    description: `Designed and developed web applications using React.js, improving frontend performance and user experience.
+Built secure and scalable backend services using Node.js and Express.js.
+Managed data storage and retrieval using MongoDB for scalable application architecture.`,
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Redux"],
   },
 ];
 
@@ -63,6 +77,7 @@ export const education = [
 
 
 export const PROJECTS = [
+  
   {
     title: "ChatterBox",
     image: chatterBox,
@@ -136,7 +151,7 @@ export const skill=[
 ]
 
 export const CONTACT = {
-  address: "Ponnani, Malappuram, Kerala",
+  address: "Malappuram, Kerala, India",
   phoneNo: "+91 8593852681 ",
   email: "mohammedsafeershefi@gmail.com",
 };
