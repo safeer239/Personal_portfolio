@@ -18,6 +18,11 @@ import jobPortal from "../assets/job-portal.png";
 import portfolio from "../assets/portfolio.png";
 import chatterBox from "../assets/chat.png";
 import weather from "../assets/weather.png";
+import python from "../assets/python.svg"
+import docker from "../assets/docker.svg"
+import figma from "../assets/figma.svg"
+import graphql from "../assets/graphql.svg"
+import nginx from "../assets/nginx.svg"
 
 export const HOME_SUMMARY = `MERN Stack Developer with 1+ year of professional experience in building scalable web applications using MongoDB, Express.js, React.js, and Node.js. Strong expertise in backend development, RESTful and GraphQL APIs, JWT-based authentication, and database-driven systems. Experienced in developing enterprise tools, employee management systems, and AI-powered applications including Retrieval-Augmented Generation (RAG). Proficient in Docker-based deployments, Nginx configuration, and modern development workflows.`;
 
@@ -141,13 +146,18 @@ export const skill=[
   CSS,
   HTML,
   Js,
+  python,
   Redux,
   Bootstrap,
   chakra_ui,
   Git,
   Github,
   Postman,
-  Postgresql
+  Postgresql,
+  docker,
+  figma,
+  graphql,
+  nginx,
 ]
 
 export const CONTACT = {
